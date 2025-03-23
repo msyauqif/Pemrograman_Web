@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- Mendeklarasikan tipe dokumen HTML5 untuk memberi tahu browser bahwa ini adalah halaman HTML5 -->
+<html lang="id">
+<!-- Menandakan elemen root dari dokumen HTML dan menunjukkan bahwa bahasa utama halaman ini adalah Bahasa Indonesia -->
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Menambahkan tag meta untuk pengaturan viewport agar halaman web responsif di perangkat mobile -->
+    <title>Registrasi Akun</title>
+    <!-- Menetapkan judul halaman yang akan muncul di tab browser -->
+</head>
+<body>
+<!-- Membuka elemen <body> yang berisi konten utama halaman -->
+    <h2>Registrasi Akun</h2>
+    <!-- Menampilkan heading level 2 dengan teks "Registrasi Akun" untuk memberi tahu pengguna bahwa ini adalah form pendaftaran -->
+    <form action="#" method="post">
+    <!-- Membuka elemen <form> yang digunakan untuk membuat formulir. Atribut "action" mengarah ke "#" (sementara, untuk pengujian), dan "method" adalah "post" untuk mengirim data secara aman -->
+        <fieldset>
+        <!-- Elemen <fieldset> digunakan untuk mengelompokkan beberapa elemen formulir dan memberikan batas di sekelilingnya -->
+            <legend>Formulir Registrasi</legend><br>
+            <!-- Elemen <legend> memberi judul atau deskripsi grup elemen dalam <fieldset>, yang dalam hal ini adalah "Formulir Registrasi" -->
+    
+        <label for="nama">Masukkan Nama :</label>
+        <!-- Elemen <label> memberikan keterangan untuk elemen input dengan id="nama". -->
+        <input type="text" id="nama" name="nama" placeholder=" Muhammad Syauqi F" required><br><br>
+        <!-- Elemen <input> dengan tipe "text" untuk memasukkan nama, dengan id "nama" dan placeholder yang memberi petunjuk. Atribut "required" memastikan kolom ini harus diisi -->
+    
+        <label for="NIM">Masukkan NIM :</label>
+        <!-- Label untuk input NIM -->
+        <input type="text" id="NIM" name="NIM" placeholder=" 202332135 " required><br><br>
+        <!-- Input teks untuk NIM dengan id "NIM", placeholder, dan atribut "required" -->
+    
+        <label for="email">Masukkan Email :</label>
+        <!-- Label untuk input Email -->
+        <input type="text" id="email" name="email" placeholder=" syauqi41024@gmail.com"required><br><br>
+        <!-- Input teks untuk email dengan id "email" dan atribut "required" -->
+    
+        <label> Jenis Kelamis :</label><br><br>
+        <!-- Label untuk pilihan jenis kelamin -->
+        <input type="radio" id="JenisKelamin_L" name="JenisKelamin" value="Laki-laki">
+        <!-- Input radio button untuk pilihan "Laki-laki", id "JenisKelamin_L" -->
+        <label for="JenisKelamin_L">Laki-laki</label>
+        <!-- Label yang mengaitkan teks "Laki-laki" dengan radio button yang memiliki id "JenisKelamin_L" -->
+        <input type="radio" id="JenisKelamin_P" name="JenisKelamin" value="Perempuan">
+        <!-- Input radio button untuk pilihan "Perempuan", id "JenisKelamin_P" -->
+        <label for="JenisKelamin_P">Perempuan</label><br><br>
+        <!-- Label yang mengaitkan teks "Perempuan" dengan radio button yang memiliki id "JenisKelamin_P" -->
+    
+        <label for="Agama">Agama:</label>
+        <!-- Label untuk dropdown pilihan agama -->
+        <select id="Agama" name="Agama">
+        <!-- Elemen <select> untuk membuat dropdown pilihan agama -->
+            <option value="Islam">Islam</option>
+            <!-- Opsi pilihan "Islam" -->
+            <option value="Kristen">Kristen</option>
+            <!-- Opsi pilihan "Kristen" -->
+            <option value="Budha">Budha</option>
+            <!-- Opsi pilihan "Budha" -->
+            <option value="Hindu">Hindu</option>
+            <!-- Opsi pilihan "Hindu" -->
+            <option value="Katolik">Katolik</option>
+            <!-- Opsi pilihan "Katolik" -->
+        </select><br><br>
+        <!-- Menutup elemen <select> untuk agama -->
+    
+        <label for="password">Masukkan Password :</label>
+        <!-- Label untuk input password -->
+        <input type="password" id="password" name="password" placeholder="admin123" required><br><br>
+        <!-- Input password untuk memasukkan password dengan id "password", placeholder, dan atribut "required" -->
+    
+        <label for="confirm_password">Konfirmasi Password :</label>
+        <!-- Label untuk input konfirmasi password -->
+        <input type="password" id="confirm_password" name="confirm_password" placeholder="******" required><br><br>
+        <!-- Input password untuk konfirmasi password, dengan id "confirm_password" dan atribut "required" -->
+    
+        <input type="submit" value="Daftar">
+        <!-- Tombol submit untuk mengirimkan formulir dengan teks "Daftar" -->
+    </fieldset>
+    <!-- Menutup elemen <fieldset> -->
+    </form>
+    <!-- Menutup elemen <form> -->
+        
+</body>
+</html>
+

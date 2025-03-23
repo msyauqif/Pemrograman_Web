@@ -1,0 +1,93 @@
+<!DOCTYPE html> <!-- Mendeklarasikan tipe dokumen HTML5 untuk memberi tahu browser bahwa ini adalah halaman HTML5 -->
+<html> <!-- Menandakan elemen root dari dokumen HTML -->
+<head>  <!-- Elemen <head> digunakan untuk menampung metadata tentang dokumen HTML (seperti pengaturan karakter, pengaturan tampilan, dan penghubung ke file eksternal) -->
+    <meta charset="UTF-8" >  <!-- Elemen <meta> dengan atribut charset digunakan untuk menetapkan pengkodean karakter yang digunakan dalam halaman ini. "UTF-8" adalah pengkodean karakter yang paling umum dan mendukung hampir semua karakter dari berbagai bahasa di dunia. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Elemen <meta> dengan atribut name="viewport" memberi tahu browser agar mengatur ukuran tampilan sesuai dengan lebar perangkat dan membuat halaman menjadi responsif di perangkat seluler. Atribut "width=device-width" mengatur lebar halaman agar sesuai dengan lebar layar perangkat, dan "initial-scale=1.0" mengatur skala awal pada 100% saat pertama kali dimuat. -->
+    <style>/* Elemen <style> digunakan untuk menulis CSS di dalam HTML untuk styling halaman web */
+
+        /* Agar ukuran gambar pas */
+        img {
+            max-width: 100%; /* Membatasi lebar gambar agar tidak meluber */
+            height: auto;    /* Menyesuaikan tinggi gambar secara otomatis */
+        }
+    </style>
+</head>
+<body>
+
+<h1> Biodataku </h1> <!-- Menampilkan judul utama halaman berupa "Biodataku" -->
+ <h2> Identitas Diri </h2> <!-- Menampilkan subjudul "Identitas Diri" -->
+    <figure>
+        <!-- Membuat elemen figure untuk menampilkan gambar -->
+        <img height="300px" Width="300px" src="./Cilodong-27.JPEG" alt="gambar Aku"> 
+        <!-- Menampilkan gambar dengan ukuran 300x300px dan memberi keterangan alt jika gambar tidak muncul -->
+    </figure>
+
+    <p><li> Nama : Muhammad Syauqi Firdaus</li>
+    <!-- Menampilkan daftar informasi pribadi dalam bentuk list (li) -->
+    <li> NIM : 202332135 </li>
+    <li> Prodi : Sistem Informasi </li>
+    <li> Alamat : Jl. Persahabatan VII No. 116 Cipedak, Jagakarsa, Jakarta Selatan </li>
+    <li> Email : syauqi41024@gmail.com </li></p>
+    <!-- Daftar informasi seperti Nama, NIM, Prodi, Alamat, dan Email -->
+
+<h2> Hobi </h2> <!-- Menampilkan subjudul "Hobi" -->
+    <figure>
+     <!-- Membuat elemen figure untuk menampilkan gambar hobi -->
+     <img height="300px" Width="300px" src="./000A6144-MSI-20241017-.jpg" alt="Hoby">
+     <!-- Menampilkan gambar dengan ukuran 300x300px dan memberi keterangan alt jika gambar tidak muncul -->
+     <img height="300px" Width="300px" src="./brenang.jpeg" alt="Hoby">
+    </figure>
+
+    <p><ol><li> Bermain Bola </li>
+        <li> Berenang </li></ol></p>
+        <!-- Menampilkan daftar hobi dalam urutan teratur menggunakan <ol> (ordered list) dengan item "Bermain Bola" dan "Berenang" -->
+
+<h2> Riwayat Pendidikan </h2> <!-- Menampilkan subjudul "Riwayat Pendidikan" -->
+
+<!--Warna semua pada table-->
+	<!--<table border=1 style="background-color:#31b0d5;">-->
+        <table border=1> <!-- Membuat tabel dengan border berukuran 1 -->
+            <thead>
+                <!--<tr style="background-color:#31b0d5;">-->
+                    <tr style="background-color:rgb(137, 137, 210);"> 
+                    <!-- Membuat baris tabel dengan warna latar belakang (background-color) RGB (137,137,210) -->
+                    <th>No</th> <!-- Menampilkan kolom "No" untuk nomor urut -->
+                    <th>Tingkat Pendidikan</th> <!-- Menampilkan kolom "Tingkat Pendidikan" -->
+                    <th>Nama Sekolah</th> <!-- Menampilkan kolom "Nama Sekolah" -->
+                    <th>Tahun Lulus</th> <!-- Menampilkan kolom "Tahun Lulus" -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td> <!-- Menampilkan nomor urut pertama -->
+                    <td>SD</td> <!-- Menampilkan tingkat pendidikan SD -->
+                    <td>MIN Al-Azhar Asy-syarif Jagakarsa</td> <!-- Menampilkan nama sekolah MIN Al-Azhar Asy-syarif Jagakarsa -->
+                    <td>2017</td> <!-- Menampilkan tahun lulus SD, yaitu 2017 -->
+                </tr>
+                <tr>
+                    <td>2</td> <!-- Menampilkan nomor urut kedua -->
+                    <td>SMP</td> <!-- Menampilkan tingkat pendidikan SMP -->
+                    <td>SMA TQT Madinatul Qur'an</td> <!-- Menampilkan nama sekolah SMP, yaitu SMA TQT Madinatul Qur'an -->
+                    <td>2020</td> <!-- Menampilkan tahun lulus SMP, yaitu 2020 -->
+                </tr>
+                <tr>
+                    <td>3</td> <!-- Menampilkan nomor urut ketiga -->
+                    <td>SMA</td> <!-- Menampilkan tingkat pendidikan SMA -->
+                    <td>SMA TQT Madinatul Qur'an</td> <!-- Menampilkan nama sekolah SMA, yaitu SMA TQT Madinatul Qur'an -->
+                    <td>2023</td> <!-- Menampilkan tahun lulus SMA, yaitu 2023 -->
+                </tr>
+                <tr>
+                    <td>4</td> <!-- Menampilkan nomor urut keempat -->
+                    <td>S1</td> <!-- Menampilkan tingkat pendidikan S1 -->
+                    <td>IT PLN</td> <!-- Menampilkan nama sekolah/ perguruan tinggi, yaitu IT PLN -->
+                    <td>2027</td> <!-- Menampilkan tahun lulus S1 yang diperkirakan 2027 -->
+                </tr>
+                
+            </tbody>
+        </table> <!-- Menutup tag tabel -->
+<hr> <!-- Menambahkan garis horizontal untuk pemisah antara bagian-bagian konten -->
+
+</body>
+<!-- Menutup elemen <body> -->
+</html>
+<!-- Menutup elemen <html> -->
