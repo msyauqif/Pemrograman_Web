@@ -1,0 +1,113 @@
+<!DOCTYPE html> <!-- Mendefinisikan bahwa dokumen ini adalah dokumen HTML5 -->
+<html lang="id"> <!-- Elemen root HTML dengan bahasa Indonesia -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Menentukan karakter encoding agar teks tampil dengan benar -->
+    <title>Laporan Praktikum 2 Pemrograman Web</title> <!-- Judul halaman di tab browser -->
+
+    <style>
+        /* Mengatur gaya umum seluruh halaman */
+        body {
+            font-family: Georgia, serif; /* Mengatur font menjadi Georgia */
+            margin: 30px; /* Memberi jarak dari tepi halaman */
+        }
+
+        /* Gaya untuk heading utama (h1) */
+        h1 {
+            background-color: blue; /* Warna latar belakang biru */
+            color: yellow; /* Warna teks kuning */
+            padding: 10px; /* Ruang dalam sekitar teks */
+        }
+
+        /* Gaya untuk subheading (h2) */
+        h2 {
+            color: blue; /* Warna teks biru */
+        }
+
+        /* Mengatur elemen teks miring (italic) */
+        em {
+            font-style: italic; /* Memastikan teks miring */
+        }
+
+        /* Kelas untuk menyorot teks dengan latar biru dan teks putih */
+        .highlight-blue {
+            background-color: blue;
+            color: white;
+            padding: 0 4px; /* Ruang kiri dan kanan */
+        }
+
+        /* Kelas untuk menyorot teks dengan latar kuning dan miring */
+        .highlight-yellow {
+            background-color: yellow;
+            font-style: italic;
+            padding: 0 4px;
+        }
+
+        /* Kelas untuk paragraf judul */
+        .judul {
+            font-weight: bold; /* Teks tebal */
+            font-size: 18px; /* Ukuran teks */
+        }
+
+        /* Kelas untuk paragraf berisi link */
+        .link {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        /* Mengatur semua paragraf agar teksnya berada di tengah */
+        p {
+            text-align: center;
+        }
+
+        /* Menimpa aturan sebelumnya khusus paragraf .judul */
+        .judul {
+            text-align: left; /* Rata kiri */
+            margin-top: 20px; /* Jarak atas */
+        }
+
+        /* Menimpa aturan sebelumnya khusus paragraf .link */
+        .link {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        /* Mengatur tampilan link dalam paragraf dengan class 'link' */
+        .link a {
+            text-decoration: none; /* Menghilangkan garis bawah */
+            color: black; /* Warna teks hitam */
+            font-weight: bold;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Paragraf pertama dengan class 'judul' -->
+    <p class="judul">Ini adalah laporan ke 2 dari matakuliah pemrograman web</p>
+
+    <!-- Heading 1 berisi nama -->
+    <h1>Muhammad Syauqi Firdaus</h1>
+
+    <!-- Heading 2 berisi NIM -->
+    <h2>202332135</h2>
+
+    <!-- Paragraf dengan highlight biru -->
+    <p>
+        Lorem <span class="highlight-blue"><em>ipsum</em></span> dolor sit amet consectetur adipisicing elit. 
+        Sed quod fuga magni ipsa ipsam atque? Sed vero, quasi nemo illo ea maiores vel itaque deserunt modi unde libero sunt debitis.
+    </p>
+
+    <!-- Paragraf dengan highlight kuning -->
+    <p>
+        Lorem ipsum dolor sit <span class="highlight-yellow"><em>amet</em></span> consectetur adipisicing elit. 
+        Suscipit est mollitia assumenda cum quisquam perferendis minima, 
+        unde fugit aspernatur itaque, doloribus excepturi officia voluptatum adipisci alias provident error ipsa expedita.
+    </p>
+
+    <!-- Paragraf berisi link yang mengarah ke YouTube -->
+    <p class="link"><a href="https://youtu.be/bhPGsu5GKVA" target="_blank">Link menuju yutub</a></p>
+
+</body>
+</html>
